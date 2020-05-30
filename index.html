@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minumum-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/diseño.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portafolio de Carlos</title>
+    <script type="text/javascript">
+        function sendMail(){
+            var pormensaje = document.getElementsByName("mensaje")[0].value;
+            window.open('mailto:ccampos.geminis@gmail.com?subject=Contacto web');
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <nav class="menu">
+                <a href="#acerca-de">Acerca de</a>
+                <a href="#trabajo">Trabajos</a>
+                <a href="#contacto">Contactos</a>
+            </nav>
+            <dic class="contenedor-texto">
+                <div class="texto">
+                    <h1 class="nombre">Carlos Campos</h1>
+                    <h2 class="profesion">Programador</h2>
+                </div>
+            </dic>
+        </div>
+    </header>
+    <section class="main">
+        <section class="acerca-de" id="acerca-de">
+            <div class="contenedor">
+                <div class="foto">
+                    <img src="img/foto.jpg" width="115" height="115" alt="Carlos Campos">
+                </div>
+                <div class="texto">
+                    <h3 class="titulo">Acerca de</h3>
+                    <p>Lorem ipsum dolor sit amet, <span class="bold">consectetur adipisicing elit</span>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis </p>
+                </div>
+            </div>
+        </section>
+        <section class="trabajos" id="trabajo">
+            <div class="contenedor">
+                <h3 class="titulo">Trabajos</h3>
+                <div class="contenedor-trabajos" name="nom">
+                    <div class="trabajos">
+                        <div class="thumb">
+                            <img src="img/trabajos/1.jpg" alt="prom1">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">prom</p>
+                            <p class="categoria">HTML - CSS - PHP</p>
+                        </div>
+                    </div>
+                    <div class="trabajos">
+                        <div class="thumb">
+                            <img src="img/trabajos/2.jpg" alt="prom2">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">prom</p>
+                            <p class="categoria">HTML - CSS - PHP</p>
+                        </div>
+                    </div>
+                    <div class="trabajos">
+                        <div class="thumb">
+                            <img src="img/trabajos/3.jpg" alt="prom3">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">prom</p>
+                            <p class="categoria">HTML - CSS - PHP</p>
+                        </div>
+                    </div>
+                    <div class="trabajos">
+                        <div class="thumb">
+                            <img src="img/trabajos/4.jpg" alt="prom4">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">prom</p>
+                            <p class="categoria">HTML - CSS - PHP</p>
+                        </div>
+                    </div>
+                    <div class="trabajos">
+                        <div class="thumb">
+                            <img src="img/trabajos/5.jpg" alt="prom5">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">prom</p>
+                            <p class="categoria">HTML - CSS - PHP</p>
+                        </div>
+                    </div>
+                    <div class="trabajos">
+                        <div class="thumb">
+                            <img src="img/trabajos/6.jpg" alt="prom6">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">prom</p>
+                            <p class="categoria">HTML - CSS - PHP</p>
+                        </div>
+                    </div>
+                    <div class="trabajos">
+                        <div class="thumb">
+                            <img src="img/trabajos/7.jpg" alt="prom7">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">prom</p>
+                            <p class="categoria">HTML - CSS - PHP</p>
+                        </div>
+                    </div>
+                    <div class="trabajos">
+                        <div class="thumb">
+                            <img src="img/trabajos/8.jpg" alt="prom8">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">prom</p>
+                            <p class="categoria">HTML - CSS - PHP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <footer>
+        <section class="contacto" id="contacto">
+            <div class="contenedor">
+                <h3 class="titulo">Contacto</h3>
+                <form  class="formulario" >
+                    <p>
+                        <span class="tex">Numero:</span>
+                    </p>
+                    <p>
+                        <span class="tex">Correo:</span>
+                    </p>
+                    <p>
+                        <span class="tex">Dirección:</span>
+                    </p>
+                </form>
+            </div>
+        </section>
+        <section class="redes-sociales">
+            <div class="contenedor">
+                <a href="https://twitter.com/explore" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.facebook.com/ccamposgeminis" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/?hl=es-la" class="instagram"><i class="fa fa-instagram"></i></a>
+                <a href="https://goo.gl/maps/zwAG9DwWx7CcjCNNA" class="mapa"><i class="fa fa-map-o"></i></a>
+                <a href="mailto:ccampos.geminis@gmail.com?subject=Contacto web" class="correo"><i class="fa fa-envelope-o"></i></a>
+                <a href="https://wa.me/56975655028" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
